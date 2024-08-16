@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style type="text/css">
+        body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #191919;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, rgba(255,255,255,0.1), rgba(0,0,0,0.8));
+    transition: background 0.2s ease-out;
+}
+
+body.smoky {
+    /*    curser anumation css*/
+    background: radial-gradient(circle at var(--x) var(--y), rgba(255,255,255,0.1), rgba(0,0,0,0.8), rgba(0,0,0,0.9));
+}
+
+
+.coming-soon-container {
+    text-align: center;
+    color: white;
+}
+
+.coming-soon-container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.coming-soon-container p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.social-icons a {
+    margin: 0 0.5rem;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    filter: invert(1);
+}
+
+    </style>
+</head>
+<body>
+    <div class="coming-soon-container">
+        <h1>coming soon.</h1>
+        <p>Stay Tuned Blogs are Coming Soon.</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/zaynzain" target="blank"><img src="images/linkedin.png" alt="Linkedin"></a>
+            <a href="https://web.facebook.com/profile.php?id=100060459708801"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://github.com/ZaynZain"><img src="images/github.png" alt="GitHub"></a>
+        </div>
+    </div>
+
+
+<script  src="js/cursor_smoke.js"></script>
+</body>
+
+
+</html>

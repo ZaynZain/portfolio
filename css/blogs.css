@@ -1,0 +1,114 @@
+/* blogs.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+      background: radial-gradient(circle, rgba(255,255,255,0.1), rgba(0,0,0,0.8));
+    transition: background 0.5s ease-out;
+}
+
+body.smoky {
+    /*    curser anumation css*/
+    background: radial-gradient(circle at var(--x) var(--y), rgba(255,255,255,0.1), rgba(0,0,0,0.8), rgba(0,0,0,0.9));
+}
+  
+
+.header-container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.header-container h1 {
+    font-size: 2em;
+    color: #fff;
+
+    margin-bottom: 10px;
+}
+
+.header-container p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button-container button {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+    background-color: #FFA62F;
+}
+
+
+
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 20px 80px; /* Adding padding to the sides */
+}
+.container a{
+    text-decoration: none;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 240px;
+/*    height: auto;*/
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card p {
+    padding: 0 15px 20px;
+    color: #555;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr); /* 3 cards on larger screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr; /* 1 card on smaller screens */
+        padding: 20px; /* Reduce padding on smaller screens */
+    }
+}
+
+
+
+
+
+    
