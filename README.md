@@ -77,8 +77,8 @@ Once the project is running, you can explore the different sections of the websi
 
 If you'd like to get in touch, you can reach me at:
 
-- **Email**: [your-email@example.com](mailto:zayn69zain@gmail.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/zaynzain)
+- **Email**: [zayn69zain@gmail.com](mailto:zayn69zain@gmail.com)
+- **LinkedIn**: [zaynzain](https://www.linkedin.com/in/zaynzain)
 - **GitHub**: [ZaynZain](https://github.com/ZaynZain)
 
 ## License
